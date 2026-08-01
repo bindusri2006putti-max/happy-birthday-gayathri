@@ -1,0 +1,293 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family:'Poppins',sans-serif;
+    background: linear-gradient(135deg,#ff4f9a,#ff75b5,#ff9fd0,#ffd4e8);
+    background-attachment: fixed;
+    overflow-x:hidden;
+    text-align:center;
+    color:black;
+}
+
+.title{
+
+font-size:60px;
+
+color:white;
+
+text-shadow:
+
+0 0 10px white,
+
+0 0 20px hotpink,
+
+0 0 40px deeppink,
+
+0 0 70px deeppink;
+
+animation:zoom 2s infinite alternate;
+
+}
+.subtitle{
+margin-top:15px;
+font-size:24px;
+color:black;
+}
+
+.photo img{
+width:320px;
+height:420px;
+margin-top:30px;
+border-radius:25px;
+object-fit:cover;
+border:6px solid white;
+box-shadow:0 0 35px deeppink;
+}
+
+button{
+margin-top:35px;
+padding:16px 35px;
+font-size:20px;
+background:#ff1493;
+color:white;
+border:none;
+border-radius:40px;
+cursor:pointer;
+transition:.4s;
+}
+
+button:hover{
+transform:scale(1.08);
+background:#ff0080;
+}
+
+#surprise{
+display:none;
+margin-top:40px;
+animation:fade 2s;
+}
+
+.slider img{
+width:340px;
+height:430px;
+border-radius:25px;
+border:5px solid white;
+box-shadow:0 0 30px white;
+margin-top:20px;
+}
+
+video{
+margin-top:30px;
+border-radius:20px;
+box-shadow:0 0 30px white;
+}
+
+h2{
+margin-top:30px;
+line-height:1.8;
+}
+
+@keyframes zoom{
+from{
+transform:scale(1);
+}
+to{
+transform:scale(1.08);
+}
+}
+
+@keyframes fade{
+from{
+opacity:0;
+transform:translateY(50px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+.heart{
+position:fixed;
+bottom:-20px;
+font-size:20px;
+animation:float 6s linear infinite;
+pointer-events:none;
+}
+
+@keyframes float{
+0%{
+transform:translateY(0) rotate(0deg);
+opacity:1;
+}
+100%{
+transform:translateY(-100vh) rotate(360deg);
+opacity:0;
+}
+}
+
+button{
+margin-top:35px;
+padding:16px 35px;
+font-size:20px;
+background:#ff1493;
+color:white;
+border:none;
+border-radius:40px;
+cursor:pointer;
+transition:.4s;
+}
+
+/* 👇 Ee code button section tarvata paste cheyyi */
+
+button:hover{
+
+transform:scale(1.1);
+
+box-shadow:0 0 20px deeppink;
+
+}
+
+.final-message{
+    text-align:center;
+    padding:60px 20px;
+    color:white;
+}
+
+.final-message h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.final-message p{
+    font-size:22px;
+    line-height:1.8;
+}
+
+#intro{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#ff6ea8,#ffb6d9,#ffddee);
+}
+
+#intro h1{
+font-size:60px;
+color:white;
+text-shadow:0 0 20px deeppink;
+}
+
+#intro p{
+font-size:22px;
+color:white;
+margin:20px;
+}
+
+#intro button{
+padding:15px 35px;
+border:none;
+border-radius:30px;
+font-size:20px;
+background:white;
+color:deeppink;
+cursor:pointer;
+transition:.4s;
+}
+
+#intro button:hover{
+transform:scale(1.1);
+}
+
+#typing{
+
+font-size:22px;
+
+color:white;
+
+width:80%;
+
+margin:auto;
+
+line-height:2;
+
+white-space:pre-line;
+
+text-shadow:0 0 10px hotpink;
+
+}
+
+#confetti{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+pointer-events:none;
+z-index:9999;
+}
+
+.small-message{
+    width:70%;
+    margin:auto;
+    text-align:center;
+    font-size:22px;
+    line-height:2;
+    color:white;
+}
+
+.cards{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+h1,h2,h3{
+    color:white;
+}
+
+.gallery img:hover{
+    transform:scale(1.08);
+    transition:0.5s;
+    box-shadow:0 0 25px white;
+}
+
+button:hover{
+    box-shadow:0 0 35px deeppink;
+    transform:scale(1.08);
+}
+
+.gallery img{
+    border-radius:20px;
+    transition:0.5s;
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+
+button{
+background:#ff1493;
+color:white;
+border:none;
+padding:15px 40px;
+border-radius:40px;
+font-size:22px;
+cursor:pointer;
+transition:.4s;
+}
+
+button:hover{
+background:#ff69b4;
+transform:scale(1.08);
+}
+
